@@ -1,0 +1,30 @@
+h1 {
+    text-align: left;
+    color:white;
+    text-shadow: 2px 2px 5px gray;
+}
+body {
+    background-color: rgb(16, 22, 20);
+}
+p {
+    color: rgb(173, 192, 3);
+    text-shadow: 2px 2px 5px gray;
+}
+ul li {
+    color: rgb(243, 240, 82);
+}
+
+
+h2 {
+    color:grey;
+ 
+    width: 30%;
+}
+div {
+    font-size: large;
+    color: grey
+    ;
+}
+footer {
+    color: rgb(42, 165, 48);
+}
