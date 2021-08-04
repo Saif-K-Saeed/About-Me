@@ -58,10 +58,6 @@ else {
 // }
 // ques3();
 
-
-
-
-
 // function ques4() {
 let myAge = prompt('Am I 32 years old ?');
 if (myAge.toLowerCase() === 'yes' || myAge.toLowerCase() === 'y') {
