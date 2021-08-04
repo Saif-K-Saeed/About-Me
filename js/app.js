@@ -20,8 +20,8 @@ function ques1() {
     console.log('First question:You should pick yes or no');
   }
 }
-ques1();
 
+ques1();
 
 function ques2() {
   let favSport = prompt('My favorite sport is football?');
@@ -38,8 +38,8 @@ function ques2() {
     console.log('Second question:You should pick yes or no');
   }
 }
-ques2();
 
+ques2();
 
 function ques3() {
   let favMeal = prompt('My favorite meal is mansaf?');
@@ -56,9 +56,8 @@ function ques3() {
     console.log('Third question:You should pick yes or no');
   }
 }
+
 ques3();
-
-
 
 
 
@@ -79,9 +78,11 @@ function ques4() {
 
 
 }
+
 ques4();
 
-//Third question
+
+
 function ques5() {
   let favMeal = prompt('Am I from Jordan?');
   if (favMeal.toLowerCase() === 'yes' || favMeal.toLowerCase() === 'y') {
@@ -97,7 +98,10 @@ function ques5() {
     console.log('Third question:You should pick yes or no');
   }
 }
+
 ques5();
+
+
 
 
 
@@ -125,7 +129,10 @@ function ques6() {
   alert('My favorate number is 6');
 
 }
+
 ques6();
+
+
 
 
 function ques7() {
@@ -152,6 +159,7 @@ function ques7() {
   }
   alert('My favorate fruit are [kiwi, Peache, apple,banana, mango]');
 }
+
 ques7();
 
 alert(`Thank you ${userName} Your score is = ${score}/7 `);
