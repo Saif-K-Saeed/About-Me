@@ -16,8 +16,7 @@ section
 {
     position: relative;
     min-height: 100vh;
-    background: url(img/banner.jpg
-    );
+    background: url(/img/banner.jpg);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -133,7 +132,7 @@ header.sticky ul li a
 }
 .contentBx 
 {
-    padding-right: 100px ;
+    padding-right: 100px;
 }
 .contentBx h3
 {
@@ -146,4 +145,33 @@ margin-bottom: 10px;
 }
 img{
     max-width: 100%;
+}
+.services
+{
+    background: #111; 
+}
+.heading.white
+{
+    color: #fff;
+} 
+.services .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .content .servicesBx
+{
+    padding: 35px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 250px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+.services .content .servicesBx:hover
+{
+    background: #2196f3;
 }
