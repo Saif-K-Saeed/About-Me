@@ -17,7 +17,6 @@ section
     position: relative;
     min-height: 100vh;
     background: url(../img/b.png);
-    
     background-size: cover;
     background-position: right;
     display: flex;
@@ -151,7 +150,7 @@ img{
 }
 .services
 {
-    background: #111; 
+    background: #111;  
 }
 .heading.white
 {
